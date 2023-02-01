@@ -6,6 +6,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="../css/ordersReceived-style.css">
+<link rel="stylesheet" href="css/adminBimage.css">
 <title>Orders Received</title>
 <style>
 .th-style

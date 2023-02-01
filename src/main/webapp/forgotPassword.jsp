@@ -2,7 +2,8 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/signup-style.css">
-<link rel="stylesheet" href="css/bimage.css">
+<link rel="stylesheet" href="c
+ss/bimage.css">
 <title>ForgotPassword</title>
 </head>
 <body>
@@ -10,18 +11,18 @@
   <div class='signup'>
   <form action="forgotPasswordAction.jsp" method="post">
   <br>
-  <input type="email" name="email" placeholder="enter email" required>
-  <input type="number" name="mobileNumber"  placeholder="Enter your mobile number"  maxlength="10" required> 
+  <input type="email" name="email" placeholder="Enter Your Email" required>
+   <input type="text" name="mobileNumber"  placeholder="Enter your mobile number" pattern="[789][0-9]{9}" maxlength="10" required> 
  
-  <select name="securityQuestion">
-  		<option values="What was your fav color ">What was your fav color</option>
-  		<option values=" fav person ">fav person</option>
-  		<option values="your pet name">your pet name</option>
-  		<option values=" ur grandfather name ">ur grandfather name</option>
+  <select name="securityQuestion" required> 
+  	<option value="What was your fav color "> Favorite Color</option>
+  	<option value="Favorite Dish ">Favorite Dish </option>
+  	<option value="your pet name">Your Pet name</option>
+  	<option value="Your First School Name ">Enter your School Name</option>
+  </select>
+  <input type="text" name="answer" placeholder="Enter Answer" required>
   
-  <input type="text" name="answer" placeholder="answer" required>
-  
-   <input type="password" name="newPassword"  placeholder="Enter your New Password " id="myInput" required>
+   <input type="password" name="newPassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"  placeholder="Enter your New Password " id="myInput" required>
 <input type="checkbox" onclick="myFunction()">Show Password
 
 <script>

@@ -23,12 +23,27 @@ if("wrong".equals(msg)){
 <%} %>
 <form action="changeMobileNumberAction.jsp" method="post">
  <h3>Enter Your New Mobile Number</h3>
- <input class="input-style" type="number" name="mobileNumber"  placeholder="Enter your New mobile number"  maxlength="10" required> 
+  <input class="input-style" type="text" id="mobileNo " name="mobileNumber"  placeholder="Enter Your New mobile number" maxlength="10" onsubmit="validate()" required> 
+ 
    <hr>
 <h3>Enter Password (For Security)</h3>
 <input class="input-style" type="password" name="password" placeholder="Enter Password(For Security)" required> 
 
 <hr>
+<script> 
+function validate(){
+	var mb=document.getElementById("mobileNo").value;
+	var mobileexp =  " /^\d{10}$/" ;
+	if(mb.match(mobileexp)){
+		return true;
+	}
+	else{
+		windows.alert("Invalid mobile number");
+		return false;
+	}
+	
+}
+</script>
 <button class="button" value="submit"> Save <i class='far fa-arrow-alt-circle-right'></i></button>
 
 </body>

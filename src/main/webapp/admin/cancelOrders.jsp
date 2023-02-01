@@ -6,6 +6,8 @@
 <html>
 <head>
 <link rel="stylesheet" href="../css/ordersReceived-style.css">
+
+<link rel="stylesheet" href="css/adminBimage.css">
 <title>Home</title>
 <style>
 .th-style

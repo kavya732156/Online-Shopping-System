@@ -1,7 +1,7 @@
     body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.25;
-  background-color:#f58ef5;
+  background-color:#2ed9c8;
 }
 a
 {
@@ -14,7 +14,7 @@ a
 }
 
 table {
-  border: 1px solid #ccc;
+  border: 1px solid #f29de8;
   border-collapse: collapse;
   margin: 0;
   padding: 0;

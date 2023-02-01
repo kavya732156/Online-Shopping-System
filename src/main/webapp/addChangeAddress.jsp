@@ -30,18 +30,18 @@ try{
 %>
 <form action="addChangeAddressAction.jsp " method="post">
 <h3>Enter Address</h3>
- <input class="input-style" type="text" name="address" value="<%=rs.getString(7)%>" placeholder="enter Address" required>
+ <input class="input-style" type="text" name="address" value="<%=rs.getString(7)%>" placeholder="Enter Address" required>
  <hr>
  <h3>Enter city</h3>
- <input class="input-style" type="text" name="city" value="<%=rs.getString(8)%>" placeholder="enter Address" required>
+ <input class="input-style" type="text" name="city" value="<%=rs.getString(8)%>" placeholder="Enter City" required>
  
 <hr>
 <h3>Enter State</h3>
-<input class="input-style" type="text" name="state" value="<%=rs.getString(9)%>" placeholder="enter Address" required>
+<input class="input-style" type="text" name="state" value="<%=rs.getString(9)%>" placeholder="Enter State" required>
  
 <hr>
 <h3>Enter country</h3>
-<input class="input-style" type="text" name="country" value="<%=rs.getString(10)%>" placeholder="enter Address" required>
+<input class="input-style" type="text" name="country" value="<%=rs.getString(10)%>" placeholder="Enter Country" required>
 
 <hr>
  <button class="button" type="submit" > Save  <i class='far fa-arrow-alt-circle-right'></i></button>

@@ -39,14 +39,14 @@ catch(Exception e){
 <input type="hidden" name="id" value="<% out.println(id) ;%>">
 
 <div class="left-div">
- <h3>Enter Name</h3>
+ <h3>Enter Product Name</h3>
  <input class="input-style" type="text" name="name" placeholder="Enter name" required>
  
 <hr>
 </div>
 
 <div class="right-div">
-<h3>Enter Category</h3>
+<h3>Enter Product Category</h3>
  <input class="input-style" type="text" name="category" placeholder="Enter Category" required>
  
 <hr>
@@ -60,7 +60,7 @@ catch(Exception e){
 </div>
 
 <div class="right-div">
-<h3>Active</h3>
+<h3>Active Status</h3>
    <select class="input-style" name="active" >
    	<option valus="Yes" > Yes </option>
    	<option valus="No" > No </option>

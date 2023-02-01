@@ -5,6 +5,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="../css/addNewProduct-style.css">
+<link rel="stylesheet" href="css/adminBimage.css">
 <title>Add New Product</title>
 <style>
 .back

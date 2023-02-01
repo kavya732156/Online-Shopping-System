@@ -1,11 +1,22 @@
 body {
-  background-color:green;
   font: 1em Helvetica;
 }
 
-#container {
+#container1 {
   width: 840px;
   margin-top: 50px;
+}
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+
+.container{
+  padding-top:50px;
+  margin: auto;
 }
 
 .whysign {
@@ -38,7 +49,7 @@ body {
 .signup {
   float: left;
   width: 300px;
-  background-color: #b0aea4;
+  background-color: white;
   text-align: center;
 }
 
@@ -80,7 +91,7 @@ h1 {
 }
 
 p {
-  color:#bf47b9 ;
+  color:#46bde8 ;
   font-size: 1.2em;
   margin: 50px 0 50px 0;
 }

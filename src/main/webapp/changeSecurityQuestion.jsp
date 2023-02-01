@@ -34,7 +34,7 @@ if("wrong".equals(msg)){
  <input class="input-style" type="text" name="newAnswer" placeholder="Enter  New answer" required> 
 <hr>
 <h3>Enter Password (For Security)</h3>
-<input class="input-style" type="password" name="password" placeholder="enter Password(For Security)" required> 
+<input class="input-style" type="password" name="password" placeholder="Enter Password(For Security)" required> 
 <hr>
 <button class="button" type="submit"> Save <i class='far fa-arrow-alt-circle-right'></i></button>
 </form>

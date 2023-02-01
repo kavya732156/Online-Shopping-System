@@ -32,13 +32,13 @@ if("invalid".equals(msg)){
 <%} %>
 <form action="changePasswordAction.jsp" method="post">
 <h3>Enter Old Password</h3>
- <input class="input-style" type="password" name="oldPassword" placeholder="enter Old Password" required>
+ <input class="input-style" type="password" name="oldPassword" placeholder="Enter Old Password" required>
   <hr>
  <h3>Enter New Password</h3>
- <input class="input-style" type="password" name="newPassword" placeholder="enter New Password" required>
+ <input class="input-style" type="password" name="newPassword" placeholder="Enter New Password" required>
  <hr>
 <h3>Enter Confirm Password</h3>
-<input class="input-style" type="password" name="conformPassword" placeholder="enter Conform Password" required>
+<input class="input-style" type="password" name="conformPassword" placeholder="Confirm Password" required>
  
 <hr>
 <button class="button" type="Submit" > Save  <i class='far fa-arrow-alt-circle-right'></i> </button>

@@ -36,7 +36,6 @@ try{
 	while(rs.next()){
 		sno=sno+1;
 %>
- // on refering line 16;
           <tr> 
             <td><% out.println(sno); %></td>
             <td><%=rs.getString(17) %></td>

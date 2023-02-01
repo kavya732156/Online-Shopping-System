@@ -2,7 +2,7 @@
 <%@page import ="java.sql.*" %>
 <%
 String email=session.getAttribute("email").toString();
-String status="processing";
+String status="Processing";
 try{
 	Connection con=ConnectionProvider.getCon();
 	PreparedStatement ps=con.prepareStatement("update cart set status=? where email=? and status='bill'");

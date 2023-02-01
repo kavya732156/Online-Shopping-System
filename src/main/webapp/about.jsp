@@ -19,7 +19,7 @@ This involves purchasing products or services over the Internet.
 This Project is developed  using Java Servlet , Jsp and JDBC for databases Connectivity.
 Databases storage is done through MYSQL-WORKBENCH
 <br>
-Contact us at : kavya8618ewit@gmail.com
+Contact us at : Dinesh@gmail.com
 <br>
 <br>
 </div>
